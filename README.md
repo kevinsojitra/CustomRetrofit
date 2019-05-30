@@ -12,9 +12,7 @@ implementation 'com.squareup.okhttp3:logging-interceptor:3.12.1'
 # How to Use
 
 Communication communication = new Communication(this,this);
-
 String url = "";
-
 HashMap<String, String> params = new HashMap<>();
 params.put("key", value);
 
@@ -25,7 +23,7 @@ communication.callGET(url,TAG);
 communication.callPOST(url,"TAG",params);
 
 # *for File Upload*
-ArrayList<PART> list = new ArrayList<>();
+ArrayList<PART> list = new ArrayList<>();<br\>
 File file = ;
  
 PART part = new PART();
