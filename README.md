@@ -1,5 +1,5 @@
 # CustomRetrofit
-Retrofit library for api call with all functions
+Retrofit library for api call with all pre functions
 
 # Add below dependencies in App level
 
