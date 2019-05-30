@@ -19,13 +19,13 @@ HashMap<String, String> params = new HashMap<>();
 
 params.put("key", value);
 
-# *for GET CALL*
+# *for GET*
 communication.callGET(url,TAG);
 
-# *for POST CALL*
+# *for POST*
 communication.callPOST(url,"TAG",params);
 
-# *for File Upload*
+# *for multi Files Upload*
 ArrayList< PART> list = new ArrayList<>();
     
 File file = ;
