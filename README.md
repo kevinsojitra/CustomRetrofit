@@ -26,7 +26,7 @@ communication.callGET(url,TAG);
 communication.callPOST(url,"TAG",params);
 
 # *for File Upload*
-ArrayList<# PART> list = new ArrayList<>();
+ArrayList< PART> list = new ArrayList<>();
     
 File file = ;
  
