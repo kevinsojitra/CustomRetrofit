@@ -40,4 +40,7 @@ list.add(part);
 
 communication.callPOSTWithFiles(url, tag, param, Params.createPartList(list));
 
+# *for Single File Upload*
+communication.callPOSTWithFile(url, TAG, param, file);
+
         
